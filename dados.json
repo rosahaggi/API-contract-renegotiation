@@ -1,0 +1,89 @@
+[
+    {
+        "id": 1,
+        "user_name": "Rosa Teixeira",
+        "user_document": "05531196059",
+        "installments": [
+            {
+                "installment_number": 1,
+                "installment_value": 50.5,
+                "dueAt": "2024-01-03",
+                "status": "PAID"
+            },
+            {
+                "installment_number": 2,
+                "installment_value": 50.5,
+                "dueAt": "2024-03-03",
+                "status": "LATE"
+            }
+        ],
+        "status": "ACTIVE"
+    },
+    {
+        "id": 2,
+        "user_name": "Josue Teixeira",
+        "user_document": "05531196051",
+        "installments": [
+            {
+                "installment_number": 1,
+                "installment_value": 50.5,
+                "dueAt": "2024-04-03",
+                "status": "PAID"
+            },
+            {
+                "installment_number": 2,
+                "installment_value": 50.5,
+                "dueAt": "2024-05-18",
+                "status": "OPEN"
+            }
+        ],
+        "status": "ACTIVE"
+    },
+    {
+        "id": 3,
+        "user_name": "Bruno Teixeira 2",
+        "user_document": "04231196042",
+        "installments": [
+            {
+                "installment_number": 1,
+                "installment_value": 50.5,
+                "dueAt": "2024-02-03",
+                "status": "PAID"
+            },
+            {
+                "installment_number": 2,
+                "installment_value": 50.5,
+                "dueAt": "2024-03-07",
+                "status": "LATE"
+            }
+        ],
+        "status": "INACTIVE"
+    },
+    {
+        "id": 4,
+        "user_name": "Bruno Teixeira 2",
+        "user_document": "04231196042",
+        "installments": [
+            {
+                "installment_number": 1,
+                "installment_value": 50.5,
+                "dueAt": "2024-02-03",
+                "status": "PAID"
+            },
+            {
+                "installment_number": 2,
+                "installment_value": 50.5,
+                "dueAt": "2024-03-07",
+                "status": "PAID"
+            },
+            {
+                "installment_number": 1,
+                "installment_value": 50.5,
+                "dueAt": "2024-04-03",
+                "status": "LATE"
+            }
+        ],
+        "status": "ACTIVE"
+    }
+
+]
